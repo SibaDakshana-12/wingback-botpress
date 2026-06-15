@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:8000'
+const API = 'https://wingback-botpress.onrender.com'
 
 export default function Resources() {
   const [resources, setResources] = useState([])

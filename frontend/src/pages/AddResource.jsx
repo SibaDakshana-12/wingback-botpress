@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:8000'
+const API = 'https://wingback-botpress.onrender.com'
 
 export default function AddResource() {
   const nav = useNavigate()
